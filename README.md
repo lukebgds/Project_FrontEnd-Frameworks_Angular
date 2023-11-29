@@ -3,7 +3,7 @@
 ## Detalhes do Projeto
 
 - **Instituição:** UNINASSAU
-- **Professor:** Nome do Professor
+- **Professor:** MARLON SILVA FERREIRA
 - **Cadeira:** FRONTEND-FRAMEWORKS
 - **Turma:** 4MB
 - **Horário:** MANHÂ
