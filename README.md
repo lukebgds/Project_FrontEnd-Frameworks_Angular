@@ -1,4 +1,4 @@
-# Projeto Frontend-Frameworks_Angular
+# Projeto Frontend-Frameworks
 
 ## Detalhes do Projeto
 
