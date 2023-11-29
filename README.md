@@ -10,12 +10,18 @@
 
 ### Integrantes do Grupo
 
-1. **Nome do Integrante 1:** Responsável por [Descrição da Responsabilidade]
-2. **Nome do Integrante 2:** Encarregado de [Descrição da Responsabilidade]
-3. **Nome do Integrante 3:** Responsável por [Descrição da Responsabilidade]
-4. **Nome do Integrante 4:** Encarregado de [Descrição da Responsabilidade]
-5. **Nome do Integrante 5:** Responsável por [Descrição da Responsabilidade]
-6. **Nome do Integrante 6:** Encarregado de [Descrição da Responsabilidade]
+1. **Nome do Integrante:**
+- Mátricula: 01506393
+2. **Nome do Integrante**
+- Mátricula: 01506393
+3. **Nome do Integrante**
+- Mátricula: 01506393
+4. **Nome do Integrante**
+- Mátricula: 01506393
+5. **Nome do Integrante**
+- Mátricula: 01506393
+6. **Lucas Benício Gusmão da Silva** 
+- Mátricula: 01506393
 
 ## Descrição do Projeto
 
