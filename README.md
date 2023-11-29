@@ -1,4 +1,4 @@
-# Projeto Frontend-Frameworks
+# Projeto FrontEnd-Frameworks
 
 ## Detalhes do Projeto
 
