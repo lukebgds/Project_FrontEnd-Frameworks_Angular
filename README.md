@@ -13,7 +13,7 @@
 1. **Nome do Integrante:** - 
 2. **Nome do Integrante** - 
 3. **Nome do Integrante** - 
-4. **Nome do Integrante** - 
+4. **Rhyan Carlos da silva Lima** - 01539352
 5. **Diogo josé do nascimento silva** - 01559424 
 6. **Lucas Benício Gusmão da Silva** - 01506393
 
