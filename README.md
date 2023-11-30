@@ -27,7 +27,11 @@ Descreva sucintamente como o grupo planeja abordar o projeto, ferramentas a sere
 
 ### Recursos Necessários
 
-- Liste aqui os recursos necessários para a execução do projeto, como materiais, equipamentos, softwares, etc.
+- gerenciadores de pacotes
+- desktops
+- ferramentas de comunicação
+- framework angular
+  
 
 ## Observações Finais
 
