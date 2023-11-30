@@ -1,0 +1,23 @@
+.card
+{
+    display: flex;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(22, 22, 22), 0 0 5px rgb(100, 100, 107);
+    color: green;
+    font-size: 20px;
+    margin: 20px;
+    padding: 50px;
+}
+.btnClass
+{
+    padding: 20px;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(22, 22, 22), 0 0 5px rgb(100, 100, 107);
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    color: green;
+    background-color: black;
+}
