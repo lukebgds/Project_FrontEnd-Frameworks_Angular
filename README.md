@@ -1,5 +1,7 @@
 # Projeto FrontEnd-Frameworks
 
+[![Licença](https://img.shields.io/badge/Licença-MIT-blue)](https://github.com/lukebgds/Projeto_FrontEnd-Frameworks_Angular/blob/main/LICENSE)
+
 ## Detalhes do Projeto
 
 - **Instituição:** UNINASSAU
