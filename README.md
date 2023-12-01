@@ -14,7 +14,7 @@
 2. **Marcos Eduardo** - 01533942 
 3. **Rodin Sarmento** - 1507133
 4. **Rhyan Carlos da silva Lima** - 01539352
-5. **Diogo josé do nascimento silva** - 01559424 
+5. **Diogo josé do Nascimento silva** - 01559424 
 6. **Lucas Benício Gusmão da Silva** - 01506393
 
 ## Descrição do Projeto
