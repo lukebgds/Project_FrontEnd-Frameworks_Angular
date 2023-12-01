@@ -10,9 +10,9 @@
 
 ### Integrantes do Grupo
 
-1. **Nome do Integrante:** - 
-2. **Nome do Integrante** - 
-3. **Nome do Integrante** - 
+1. **Luiz Eduardo Negri** - 1224564
+2. **Marcos Eduardo** - 01533942 
+3. **Rodin Sarmento** - 1507133
 4. **Rhyan Carlos da silva Lima** - 01539352
 5. **Diogo josé do nascimento silva** - 01559424 
 6. **Lucas Benício Gusmão da Silva** - 01506393
@@ -27,11 +27,12 @@ Descreva sucintamente como o grupo planeja abordar o projeto, ferramentas a sere
 
 ### Recursos Necessários
 
-- Gerenciadores de Pacotes
 - Desktops
+- Gerenciadores de Pacotes
 - Ferramentas de Comunicação
+- GITHUB PRO
+- Ambientes de Desenvolvimento Integrado(IDEs)
 - Framework Angular
-  
 
 ## Observações Finais
 
