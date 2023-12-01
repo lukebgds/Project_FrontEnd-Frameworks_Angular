@@ -27,10 +27,10 @@ Descreva sucintamente como o grupo planeja abordar o projeto, ferramentas a sere
 
 ### Recursos Necessários
 
-- gerenciadores de pacotes
-- desktops
-- ferramentas de comunicação
-- framework angular
+- Gerenciadores de Pacotes
+- Desktops
+- Ferramentas de Comunicação
+- Framework Angular
   
 
 ## Observações Finais
