@@ -21,11 +21,12 @@
 
 ## Descrição do Projeto
 
-Aqui você descreve brevemente o que o projeto se propõe a fazer, suas metas e objetivos.
+O projeto visa ser um e-comerce que vai conter cadastros de clientes e compra de produtos
 
 ## Metodologia
 
 Descreva sucintamente como o grupo planeja abordar o projeto, ferramentas a serem utilizadas, metodologias de trabalho, etc.
+O grupo elaborou uma engenharia de requisitos e fez analises de riscos no plano de desenvolvimento do projeto, Desenvolvendo de forma incremental a equipe usou ferramentas de comunicação e versionamento de codigos.
 
 ### Recursos Necessários
 
