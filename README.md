@@ -1,7 +1,5 @@
 # Projeto FrontEnd-Frameworks
 
-[![Licença](https://img.shields.io/badge/Licença-MIT-blue)](https://github.com/lukebgds/Projeto_FrontEnd-Frameworks_Angular/blob/main/LICENSE)
-
 ## Detalhes do Projeto
 
 - **Instituição:** UNINASSAU
@@ -10,7 +8,7 @@
 - **Turma:** 4MB
 - **Horário:** MANHÂ
 
-### Integrantes do Grupo
+### Integrantes do Grupo/Autores: 
 
 1. **Luiz Eduardo Negri** - 1224564
 2. **Marcos Eduardo** - 01533942 
@@ -18,6 +16,10 @@
 4. **Rhyan Carlos da silva Lima** - 01539352
 5. **Diogo josé do Nascimento silva** - 01559424 
 6. **Lucas Benício Gusmão da Silva** - 01506393
+
+Todos os direitos reservados:
+
+[![Licença](https://img.shields.io/badge/Licença-MIT-blue)](https://github.com/lukebgds/Projeto_FrontEnd-Frameworks_Angular/blob/main/LICENSE)
 
 ## Descrição do Projeto
 
@@ -29,7 +31,7 @@ O projeto visa desenvolver um e-commerce completo, com o propósito de proporcio
 - **Sistema de Login Seguro:** Um processo de login seguro e eficiente, permitindo que os usuários acessem suas contas de forma protegida e personalizada.
 - **Cadastro de Usuários Simplificado:** Um sistema de cadastro intuitivo, permitindo que os usuários se inscrevam de maneira descomplicada, fornecendo as informações necessárias para uma experiência personalizada.
 - **Catálogo de Produtos Diversificado:** Um amplo catálogo de produtos organizado de forma lógica e intuitiva, facilitando a navegação e busca dos usuários.
-- **Funcionalidade de Carrinho de Compras:** Um sistema de carrinho de compras interativo, que permite aos usuários adicionar, remover e gerenciar os itens desejados antes de finalizar a compra.
+- **Funcionalidade de Carrinho de Compras:** Um sistema de carrinho de compras interativo, que permite aos usuários adicionar, ou remover itens desejados antes de finalizar a compra.
 
 Essas funcionalidades fundamentais serão cuidadosamente implementadas para garantir uma experiência de usuário fluida e satisfatória, reforçando a proposta do e-commerce como uma plataforma confiável e eficiente para compras online.
 
@@ -61,4 +63,3 @@ Esses recursos desempenharam papéis fundamentais na condução eficiente do pro
 - **Atualizações e Manutenção:** Planejar um cronograma para atualizações regulares da plataforma, corrigindo bugs e implementando novos recursos para manter a relevância e funcionalidade do e-commerce.
 
 Essas considerações adicionais são fundamentais para o sucesso contínuo do projeto, garantindo uma base sólida para o lançamento e crescimento futuro do e-commerce.
-
