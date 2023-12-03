@@ -10,7 +10,7 @@
 
 ### Integrantes do Grupo/Autores: 
 
-1. **Luiz Eduardo Negri** - 1224564
+1. **Luiz Eduardo Negri Silva Calábria** - 1224564
 2. **Marcos Eduardo** - 01533942 
 3. **Rodin Sarmento** - 1507133
 4. **Rhyan Carlos da silva Lima** - 01539352
