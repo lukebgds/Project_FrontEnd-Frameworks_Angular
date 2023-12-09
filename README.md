@@ -17,10 +17,6 @@
 5. **Diogo josé do Nascimento silva** - 01559424 
 6. **Lucas Benício Gusmão da Silva** - 01506393
 
-Todos os direitos reservados:
-
-[![Licença](https://img.shields.io/badge/Licença-MIT-blue)](https://github.com/lukebgds/Projeto_FrontEnd-Frameworks_Angular/blob/main/LICENSE)
-
 ## Descrição do Projeto
 
 O projeto visa desenvolver um e-commerce completo, com o propósito de proporcionar aos usuários uma plataforma intuitiva e funcional para a compra de produtos online. Serão implementadas as seguintes funcionalidades principais:
