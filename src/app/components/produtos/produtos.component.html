@@ -1,0 +1,76 @@
+<body>
+  <header>
+    <!-- Navbar -->
+    <div class="container" id="nav-container">
+      <nav class="navbar navbar-expand-lg fixed-top">
+
+        <!-- Logotipo -->
+        <div class="navbar-brand">
+          <img id="logo" src="./assets/imgs/logo.png" alt="BLAZIKEN™" routerLink="">
+        </div>
+
+        <!-- Formulário de pesquisa na barra de navegação -->
+        <div class="navbar-nav position-relative">
+          <form class="navbar-search d-flex align-items-center">
+            <input type="text" class="flex-grow-1" placeholder="Pesquisar...">
+            <button type="submit" class="btn btn-outline-secondary"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+
+        <!-- Botão de alternância para exibir/esconder links na barra de navegação -->
+        <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false"
+          aria-label="toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links da barra de navegação -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <a class="nav-item nav-link" id="produto-menu" routerLink="">Produtos<i class="fas fa-home fa-lg"></i></a>
+          <a class="nav-item nav-link" id="carinho-menu" routerLink="/carrinho">Carrinho<i class="fas fa-shopping-cart fa-lg"></i></a>
+          <a class="nav-item nav-link" id="usuario-menu" routerLink="/login">Login<i class="fas fa-user fa-lg"></i></a>
+          <a class="nav-item nav-link" id="usuario-menu" routerLink="/cadastro">Cadastro<i class="fas fa-user fa-lg"></i></a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Seção de produtos -->
+  <section id="Card-area">
+    <div class="container">
+      <div class="row row-cols-4 g-4">
+
+        <!-- Cartões de produtos -->
+        <!-- Cada col contém um cartão de produto -->
+
+        <div class="col" *ngFor="let produto of produtos | paginate: { itemsPerPage: 8, currentPage: p}">
+          <div class="card">
+            <img src="{{produto.img}}" class="card-img-top" alt="Smartphone LG K62 LMK520BMW 64GB Câmera Quádrupla" appHighlightOnHover>
+            <div class="card-body">
+              <h5 class="card-title">{{produto.nome}}</h5>
+              <p class="card-text">{{produto.valor | currency: 'BRL':'symbol':'1.2-2'}}</p>
+              <a href="#" class="btn btn-custom" (click)="carrinhoService.addCarrinho(produto.nome, produto.valor, produto.img)">Adicionar ao Carrinho</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+
+  </section>
+
+  <!----((Copyright))---->
+
+  <div id="copy-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>Copyright 2023 © - BLAZIKEN™</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>

@@ -1,0 +1,88 @@
+/*-----((Cards - Login/Cadastro, footerr))-----*/
+
+
+/*-----((Navbar))-----*/
+
+header,
+.navbar {
+  background-color: #FF0000;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  width: 150px;
+  margin-left: 10px;
+}
+
+
+/*-----((Card))-----*/
+
+#Card-area {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.card {
+  transition: box-shadow 0.3s;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+#login-area {
+  padding-top: 50px;
+}
+
+.login-name {
+  text-align: center;
+  color: #FF0000;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#login-area label {
+  font-size: 20px;
+}
+
+#login-area .main-btn {
+  width: 200px;
+  height: 60px;
+  background-color: #d83a00;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  display: block;
+  margin: 0 auto;
+}
+
+#login-area .main-btn:hover {
+  background-color: #FF0000;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="Confirm-Password"],
+input[type="name"] {
+  border: 2px solid #FF0000;
+  border-radius: 9px;
+  padding: 10px;
+}
+
+.signup-link {
+  color: #d83a00;
+}
+
+
+/*-----((Copyright))-----*/
+
+.footerr p {
+  text-align: center;
+  color: #FF0000;
+}

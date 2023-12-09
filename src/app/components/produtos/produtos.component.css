@@ -1,0 +1,167 @@
+/*-----((Geral))-----*/
+
+html body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.row {
+  margin: 0;
+}
+
+.container {
+  padding: 70px 0;
+}
+
+p,
+li {
+  color: black;
+  font-size: 19px;
+  text-align: justify;
+}
+
+
+/*-----((Navbar))-----*/
+
+header,
+.navbar {
+  background-color: #FF0000;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  width: 150px;
+  margin-left: 10px;
+}
+
+.navbar-brand {
+  padding: 15px 25px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #BBEAFF;
+}
+
+#navbar-links a {
+  color: white;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+#navbar-links a:hover {
+  color: #333333;
+}
+
+#produto-menu:hover,
+#carinho-menu:hover,
+#usuario-menu:hover {
+  transition: background-color 0.2s ease;
+  background-color: #FFD700;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.navbar-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 5px 15px;
+  width: 400px;
+}
+
+.navbar-search input[type="text"] {
+  border: none;
+  outline: none;
+  padding: 5px;
+  background: transparent;
+  width: calc(100% - 30px);
+}
+
+.navbar-search button {
+  position: absolute;
+  right: 5px;
+  background: transparent;
+  border: none;
+  color: #000;
+}
+
+.navbar-search button:hover {
+  background: transparent;
+  color: #000;
+}
+
+
+/*-----((Cards))-----*/
+
+#Card-area {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.card {
+  transition: box-shadow 0.3s;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card-text {
+  text-align: left;
+  color: #CC0000;
+}
+
+.card-title {
+  font-size: 19px;
+  height: 3.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#Card-area .btn-custom {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  border-color: #FF0000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#Card-area .btn-custom:hover {
+  background-color: #CC0000;
+  border-color: #CC0000;
+}
+
+
+/*-----((Copyright))-----*/
+
+#copy-area {
+  background-color: #FF0000;
+}
+
+#copy-area .container {
+  padding: 10px;
+}
+
+#copy-area .container p {
+  margin: 0;
+  color: white;
+  text-align: center;
+}

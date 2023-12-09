@@ -1,0 +1,150 @@
+/*-----((Geral))-----*/
+
+html body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p,
+li {
+    color: black;
+    font-size: 19px;
+    text-align: justify;
+}
+
+
+/*-----((Cart-section))-----*/
+
+.cart-section {
+    padding-top: 100px;
+    /* Adicionando espaço superior */
+}
+
+/* Estilos gerais para os cards */
+.card {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para o cabeçalho dos cards */
+.card-header {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Estilos para o cabeçalho dos produtos */
+.product-header {
+    border-bottom: 1px solid #FF0000;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+/* Estilos para os elementos dentro do cabeçalho dos produtos */
+.product-name,
+.product-price,
+.product-subtotal {
+    flex: 1;
+    text-align: center;
+}
+
+/* Estilos para o botão 'Finalizar Compra' */
+.btn-danger {
+    width: 100%;
+    background-color: #ff0000;
+    /* Vermelho */
+    margin-top: 15px;
+}
+
+.btn-danger:hover {
+    background-color: #cc0000;
+    /* Vermelho escuro no hover */
+    border-color: #cc0000;
+    /* Vermelho escuro no hover */
+}
+
+
+/*-----((Navbar))-----*/
+
+header,
+.navbar {
+    background-color: #FF0000;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 150px;
+    margin-left: 10px;
+}
+
+#navbar-links a {
+    color: white;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+#navbar-links a:hover {
+    color: #333333;
+}
+
+#produto-menu:hover,
+#carinho-menu:hover,
+#login-menu:hover,
+#cadastro-menu:hover {
+    transition: background-color 0.2s ease;
+    background-color: #FFD700;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 5px 15px;
+    width: 400px;
+}
+
+.navbar-search input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 5px;
+    background: transparent;
+    width: calc(100% - 30px);
+}
+
+.navbar-search button {
+    position: absolute;
+    right: 5px;
+    background: transparent;
+    border: none;
+    color: #000;
+}
+
+.navbar-search button:hover {
+    background: transparent;
+    color: #000;
+}

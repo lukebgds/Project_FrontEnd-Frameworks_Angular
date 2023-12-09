@@ -1,0 +1,73 @@
+<body>
+  <header>
+
+    <!-- Navbar -->
+    <div class="container" id="nav-container">
+      <nav class="navbar navbar-expand-lg fixed-top">
+
+        <!-- Logotipo -->
+        <div class="navbar-brand">
+          <img id="logo" src="./assets/imgs/logo.png" alt="BLAZIKEN™" routerLink="">
+        </div>
+
+        <!-- Botão de alternância para exibir/esconder links na barra de navegação -->
+        <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false"
+          aria-label="toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      </nav>
+    </div>
+  </header>
+
+  <!-- Card-cadastro -->
+  <section id="login-area">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h1 class="login-name">CADASTRO</h1>
+          <div class="card mt-2">
+            <div class="card-body">
+
+              <!-- Formulário com email e senha -->
+              <form>
+
+                <div class="mb-3">
+                  <label for="senha" class="form-label">Nome Completo</label>
+                  <input type="name" class="form-control form-control-lg" id="senha" placeholder="Digite seu nome"
+                    name="senha" [(ngModel)]="user.nome">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control form-control-lg" id="email" placeholder="Digite seu e-mail"
+                    name="email" [(ngModel)]="user.email">
+                </div>
+                <div class="mb-3">
+                  <label for="senha" class="form-label">Senha</label>
+                  <input type="password" class="form-control form-control-lg" id="senha" placeholder="Digite sua senha"
+                    name="senha" [(ngModel)]="user.senha">
+                </div>
+                <div class="mb-3">
+                  <label for="senha" class="form-label">Confirmar-Senha</label>
+                  <input type="password" class="form-control form-control-lg" id="senha"
+                    placeholder="Confirme sua senha" name="senha" [(ngModel)]="user.conSenha">
+                </div>
+                <input type="submit" class="btn btn-lg main-btn" value="Cadastrar"
+                  (click)="userService.cadastrar(user.nome, user.email, user.senha, user.conSenha)">
+
+              </form>
+              <p class="text-center mt-3">Já cadastrado? <a routerLink="/login" class="signup-link">Faça login!</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pseudo-Footer -->
+  <div class="footerr">
+    <p>Copyright 2023 © - BLAZIKEN™</p>
+  </div>
+
+</body>

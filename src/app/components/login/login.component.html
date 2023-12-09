@@ -1,0 +1,66 @@
+<body>
+  <header>
+    <!-- Navbar -->
+    <div class="container" id="nav-container">
+      <nav class="navbar navbar-expand-lg fixed-top">
+
+        <!-- Logotipo -->
+        <div class="navbar-brand">
+          <img id="logo" src="./assets/imgs/logo.png" alt="BLAZIKEN™" routerLink="">
+        </div>
+
+        <!-- Botão de alternância para exibir/esconder links na barra de navegação -->
+        <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false"
+          aria-label="toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Card-Login -->
+  <section id="login-area">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h1 class="login-name">LOGIN</h1>
+          <div class="card mt-2">
+            <div class="card-body">
+
+              <!-- Formulário com email e senha -->
+              <form>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control form-control-lg" id="email" placeholder="Digite seu e-mail"
+                    name="email" [(ngModel)]="loguinUser.email">
+                </div>
+                <div class="mb-3">
+                  <label for="senha" class="form-label">Senha</label>
+                  <input type="password" class="form-control form-control-lg" id="senha" placeholder="Digite sua senha"
+                    name="senha" [(ngModel)]="loguinUser.senha">
+                </div>
+                <input type="submit" class="btn btn-lg main-btn" value="Entrar"
+                  (click)="userService.login(loguinUser.email, loguinUser.senha)">
+              </form>
+
+              <p class="text-center mt-3">Não tem cadastro?<a routerLink="/cadastro"
+                  class="signup-link">Cadastre-se!</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Pseudo-Footer -->
+  <div class="footerr">
+    <p>Copyright 2023 © - BLAZIKEN™</p>
+  </div>
+
+
+  <!--depois de logar seria o ideal que protasse um logado com sucesso que levasse pra pagina inicial, a mesma lo
+  gica pra cadastro só  que ora login -->
+</body>
