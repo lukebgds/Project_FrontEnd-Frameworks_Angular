@@ -7,6 +7,7 @@
 - **Cadeira:** FRONTEND-FRAMEWORKS
 - **Turma:** 4MB
 - **Horário:** MANHÂ
+- **Data:** 11/12/2023
 
 ### Integrantes do Grupo/Autores: 
 
@@ -16,6 +17,8 @@
 4. **Rhyan Carlos da silva Lima** - 01539352
 5. **Diogo josé do Nascimento silva** - 01559424 
 6. **Lucas Benício Gusmão da Silva** - 01506393
+
+``Todos os direitos reservados``
 
 ## Descrição do Projeto
 
