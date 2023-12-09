@@ -18,7 +18,7 @@
 5. **Diogo josé do Nascimento silva** - 01559424 
 6. **Lucas Benício Gusmão da Silva** - 01506393
 
-``Todos os direitos reservados``
+``Todos os Direitos Reservados``
 
 ## Descrição do Projeto
 
