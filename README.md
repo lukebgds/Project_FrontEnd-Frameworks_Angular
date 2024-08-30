@@ -11,12 +11,12 @@
 
 ### Integrantes do Grupo/Autores: 
 
-1. **Luiz Eduardo Negri Silva Calábria** - 1224564
-2. **Marcos Eduardo** - 01533942 
-3. **Rodin Sarmento** - 1507133
-4. **Rhyan Carlos da silva Lima** - 01539352
-5. **Diogo josé do Nascimento silva** - 01559424 
-6. **Lucas Benício Gusmão da Silva** - 01506393
+1. **Luiz Eduardo Negri Silva Calábria** 
+2. **Marcos Eduardo** 
+3. **Rodin Sarmento** 
+4. **Rhyan Carlos da silva Lima** 
+5. **Diogo josé do Nascimento silva** 
+6. **Lucas Benício Gusmão da Silva** 
 
 ``Todos os Direitos Reservados``
 
